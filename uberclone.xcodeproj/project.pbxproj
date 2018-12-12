@@ -15,6 +15,7 @@
 		0623586421B9F58C004165F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0623586221B9F58C004165F9 /* LaunchScreen.storyboard */; };
 		0623586F21B9F58C004165F9 /* ubercloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0623586E21B9F58C004165F9 /* ubercloneTests.swift */; };
 		0623587A21B9F58C004165F9 /* ubercloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0623587921B9F58C004165F9 /* ubercloneUITests.swift */; };
+		06CE944621C077B40078755E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CE944521C077B40078755E /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0623587521B9F58C004165F9 /* ubercloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ubercloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0623587921B9F58C004165F9 /* ubercloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ubercloneUITests.swift; sourceTree = "<group>"; };
 		0623587B21B9F58C004165F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CE944521C077B40078755E /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,9 @@
 		0623585521B9F58A004165F9 /* uberclone */ = {
 			isa = PBXGroup;
 			children = (
+				06CE944421C077790078755E /* Model */,
+				06CE944321C077760078755E /* View */,
+				06CE944221C077710078755E /* Controller */,
 				0623585621B9F58A004165F9 /* AppDelegate.swift */,
 				0623585821B9F58A004165F9 /* ViewController.swift */,
 				0623585A21B9F58A004165F9 /* Main.storyboard */,
@@ -126,6 +131,28 @@
 				0623587B21B9F58C004165F9 /* Info.plist */,
 			);
 			path = ubercloneUITests;
+			sourceTree = "<group>";
+		};
+		06CE944221C077710078755E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		06CE944321C077760078755E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06CE944521C077B40078755E /* GradientView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		06CE944421C077790078755E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +288,7 @@
 			files = (
 				0623585F21B9F58A004165F9 /* uberclone.xcdatamodeld in Sources */,
 				0623585921B9F58A004165F9 /* ViewController.swift in Sources */,
+				06CE944621C077B40078755E /* GradientView.swift in Sources */,
 				0623585721B9F58A004165F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
